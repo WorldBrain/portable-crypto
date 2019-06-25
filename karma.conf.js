@@ -20,6 +20,10 @@ module.exports = function(config) {
     webpack: {
       mode: 'none',
       node: false,
+      resolve: {
+      //   root: path.join(__dirname, 'ts'),
+        extensions: [ '.js', '.ts' ]
+      },
       module: {
         rules: [
           {
