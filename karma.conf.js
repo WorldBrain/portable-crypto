@@ -12,10 +12,10 @@ module.exports = function(config) {
   config.set({
     frameworks: ['mocha'],
     files: [
-      'ts/web.test.ts'
+      'ts/*.webtest.ts'
     ],
     preprocessors: {
-      'ts/web.test.ts': ['webpack']
+      'ts/*.ts': ['webpack']
     },
     webpack: {
       mode: 'none',

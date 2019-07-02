@@ -2,7 +2,7 @@
   "name": "@worldbrain/portable-crypto",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Simple encryption library",
+  "description": "Simple encryption library that can encrypt data meant to be shared across multiple JS-based environments",
   "main": "lib/index.js",
   "typings": "lib/index",
   "scripts": {
